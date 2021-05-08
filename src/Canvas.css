@@ -1,0 +1,278 @@
+body {
+	background-color: rgb(18, 2, 75);
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+svg {
+	width: 100%;
+	height: 100%;
+}
+
+.dragshape {
+	display: inline-block;
+	padding: 0px;
+
+	/* border: 1px solid red; */
+}
+
+.shapescontainerdiv {
+	display: flex !important;
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+/* div {
+	width: fit-content;
+	height: fit-content;
+} */
+
+#LCheek1div {
+	position: relative;
+	top: 0vh;
+	left: -25vw;
+}
+
+#RCheek1div {
+	position: relative;
+	top: -10vh;
+	right: -30vw;
+}
+#LCheek1div,
+#RCheek1div {
+	width: 15vw;
+	height: 178h;
+}
+
+#LCheek2div {
+	width: 13vw;
+	height: 20vh;
+}
+
+#RCheek2div {
+	width: 13vw;
+	height: 20vh;
+	position: relative;
+	top: -40vh;
+	left: 29vw;
+}
+
+#LCheek3div,
+#RCheek3div {
+	width: 15vw;
+	height: 15vh;
+}
+
+#RCheek3div {
+	position: absolute;
+	top: 30vh;
+	left: 65vw;
+}
+#LCheek3div {
+	position: absolute;
+	top: 3vh;
+	left: 5vw;
+}
+
+#RCurlyHairdiv,
+#LCurlyHairdiv {
+	width: 10vw;
+	height: 60vh;
+}
+
+#RCurlyHairdiv {
+	position: absolute;
+	top: 10vh;
+	left: 90vw;
+}
+
+#LCurlyHairdiv {
+	position: absolute;
+	top: 5vh;
+	left: 20vw;
+}
+
+#LStraightHairdiv,
+#RStraightHairdiv {
+	width: 9vw;
+	height: 70vh;
+}
+
+#LStraightHairdiv {
+	position: absolute;
+	top: 3vh;
+	left: 5vw;
+}
+
+#RStraightHairdiv {
+	position: absolute;
+	top: 20vh;
+	left: 28vw;
+}
+/*changing width and height on the div changes boudning box on element */
+
+#LEyes1div,
+#REyes1div,
+#LEyes3div,
+#REyes3div {
+	width: 13vw;
+	height: 13vh;
+}
+
+#LEyes1div {
+	position: absolute;
+	top: 10vh;
+	left: 50vw;
+}
+
+#REyes1div {
+	position: absolute;
+	top: 10vh;
+	left: 70vw;
+}
+
+#LEyes2div {
+	position: absolute;
+	top: 10vh;
+	left: 15vw;
+}
+
+#REyes2div {
+	position: absolute;
+	top: 30vh;
+	left: 40vw;
+}
+
+#LEyes2div,
+#REyes2div {
+	width: 13vw;
+	height: 16vh;
+}
+
+#LEyes3div {
+	position: absolute;
+	top: 70vh;
+	left: 15vw;
+}
+
+#REyes3div {
+	position: absolute;
+	top: 60vh;
+	left: 62vw;
+}
+
+#Nose1div {
+	width: 12vw;
+	height: 25vh;
+	position: absolute;
+	top: 30vh;
+	left: 60vw;
+}
+
+#Nose2div {
+	width: 12vw;
+	height: 20vh;
+	position: absolute;
+	top: 30vh;
+	left: 4vw;
+}
+
+#Nose3div {
+	width: 16vw;
+	height: 20vh;
+	position: absolute;
+	top: 60vh;
+	left: 40vw;
+}
+
+#Mouth1div {
+	width: 12vw;
+	height: 25vh;
+	position: absolute;
+	top: 68vh;
+	left: 40vw;
+}
+
+#Mouth2div {
+	width: 18vw;
+	height: 15vh;
+	position: absolute;
+	top: 82vh;
+	left: 40vw;
+}
+
+#Mouth3div {
+	width: 20vw;
+	height: 18vh;
+	position: absolute;
+	top: 73vh;
+	left: 1vw;
+}
+
+#LEyebrow1div {
+	width: 24vw;
+	height: 8vh;
+	position: absolute;
+	top: 2vh;
+	left: 45vw;
+}
+
+#REyebrow1div {
+	width: 24vw;
+	height: 8vh;
+	position: absolute;
+	top: 2vh;
+	left: 65vw;
+}
+
+#LEyebrow2div {
+	width: 24vw;
+	height: 8vh;
+	position: absolute;
+	top: 0vh;
+	left: 10vw;
+}
+
+#REyebrow2div {
+	width: 18vw;
+	height: 8vh;
+	position: absolute;
+	top: 80vh;
+	left: 56vw;
+}
+/* 
+#LEyebrow3div {
+	width: 18vw;
+	height: 14vh;
+	position: absolute;
+	top: 3vh;
+	left: 25vw;
+}
+
+#REyebrow3div {
+	width: 18vw;
+	height: 14vh;
+	position: absolute;
+	top: 20vh;
+	left: 37vw;
+} */
+
+#LFaceLinediv {
+	width: 15vw;
+	height: 30vh;
+	position: absolute;
+	left: 45vw;
+	top: 40vh;
+}
+
+#RFaceLinediv {
+	width: 15vw;
+	height: 30vh;
+	position: absolute;
+	left: 70vw;
+	top: 60vh;
+}

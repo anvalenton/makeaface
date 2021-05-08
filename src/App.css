@@ -1,8 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 .App {
-  text-align: center;
+	text-align: center;
 }
 
-.App-logo {
+#titlediv {
+	background-color: rgb(0, 139, 0);
+	width: 15vw;
+	height: 20vh;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: -5;
+	font-family: 'Abril Fatface', cursive;
+	padding: 2px;
+}
+
+h3 {
+	font-size: 5vh;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	color: blue;
+  letter-spacing: 3px;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +58,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
