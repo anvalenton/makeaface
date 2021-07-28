@@ -14,11 +14,7 @@ const ColorUpdateForm = ({setColor}) => {
 
     const lastClickedShapeRects = lastClickedShape.current.getClientRects()
     
-    // console.log(lastClickedShapeRects);
-    // console.log(window.pageXOffset);
-    // console.log(window.pageYOffset);
-    // console.log(window.scrollX)
-    // console.log(document.documentElement);
+
 
     //pageYOffset takes into consideration the scrolled distance from the very top of the document. adding this to the variable below places the color picker in the same level as an item that is beyond the first seen viewport
     const lastClickedShapeTopPaddingMinus20PlusPageYOffset = (lastClickedShapeRects[0].top - 20 + window.pageYOffset) + 'px';
